@@ -1,0 +1,43 @@
+name: base_project
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+ # State Management
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+
+
+  # Localization 
+  easy_localization: 
+
+  # Cache
+  shared_preferences: ^2.0.17
+
+  # Network
+  dio: 
+
+  # Serializable
+  json_serializable:     
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: 
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lang/
+
